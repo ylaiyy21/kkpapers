@@ -3,8 +3,9 @@ kkpapers jquery分页工具
 1.引入pager.js和pager.css文件
 
 2.页面引用
-	"<div class="kkpager"></div>"
+	<div class="kkpager"></div>
 3.javaScrpt
+
 	var pageSize = 9;
 	var pageCount = 0;
 	var total = 0;
