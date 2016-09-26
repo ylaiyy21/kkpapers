@@ -1,11 +1,17 @@
 kkpapers jquery分页工具
 
 1.引入pager.js和pager.css文件
-
+	```html
+	<script type="text/javascript" src="kkpager.js"></script>
+	<link rel="stylesheet" type="text/css" href="kkpager.css" />
+	```
+	
 2.页面引用
-	<div class="kkpager"></div>
+	```html
+		<div class="kkpager"></div>
+	```
 3.javaScrpt
-
+```html
 	var pageSize = 9;
 	var pageCount = 0;
 	var total = 0;
@@ -42,5 +48,5 @@ kkpapers jquery分页工具
 			// 创建分页
 			kkpager.generPageHtml(config);
 	};
-
+```
 原文地址：https://github.com/pgkk/kkpager
