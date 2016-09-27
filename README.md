@@ -45,7 +45,7 @@ function showPageList(pno) {
 				 return false;
 			}
 		};
-		kkpager.init(config);
+		kkpager.init(config,true);
 		// ¥¥Ω®∑÷“≥
 		kkpager.generPageHtml(config);
 };
